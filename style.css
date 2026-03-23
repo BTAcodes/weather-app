@@ -95,10 +95,10 @@ body{
 @media (max-width : 500px){
    .search{
     flex-direction: column;
-   
     gap: 10px;
    }
    .details{
     gap: 20px;
+    flex-direction: column;
    }
 }
