@@ -42,8 +42,8 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
 }
 .search button img{
@@ -91,4 +91,14 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+@media (max-width : 500px){
+   .search{
+    flex-direction: column;
+   
+    gap: 10px;
+   }
+   .details{
+    gap: 20px;
+   }
 }
